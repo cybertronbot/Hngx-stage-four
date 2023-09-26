@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import whalelogo from '../assets/whalelogo.png'
 import whale from '../assets/whale.png'
-
+import supernft from "../assets/super.png"
+import superlogo from '../assets/superlogo.png'
 import aptrack from '../assets/aptrack.png'
 import aptracklogo from '../assets/aptracklogo.png'
 import safekey from '../assets/safekey.png'
@@ -72,6 +73,19 @@ const Projects = () => {
         },
         {
             id: 4,
+            proImg: supernft,
+            proLogo: superlogo,
+            proLogoStyle: 'absolute h-56 w-[60%] object-contain rounded-[21.5px]',
+            proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#4c4429] rounded-[20px]',
+            proIntro: 'SuperNft Marketplace',
+            proLink: 'https://super-nft.vercel.app/',
+            aos: 'fade-right',
+            offset: "100", 
+            easing: "ease-in-sine",
+            duration: "2000"
+        },
+        {
+            id: 5,
             proImg: spooky,
             proLogo: spookylogo,
             proLogoStyle: 'absolute h-56 w-[60%] object-contain rounded-[21.5px]',
