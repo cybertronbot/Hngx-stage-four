@@ -134,12 +134,12 @@ const Projects = () => {
                     >
                         {
                             isHovered === item.id
-                         ? <div className="relative flex items-center justify-center w-full h-64 bg-[#223a44] rounded-[20px] border-[1px] border-[#9c38ff] px-7 md:h-72">
+                         ? <div className="relative flex items-center justify-center w-full h-64 bg-[#223a44] rounded-[20px] border-[1px] border-[#ffffff] px-7 md:h-72">
                              <div className='flex flex-col items-center justify-center w-full'>
                                  <p className='text-center text-base xl:text-lg'>
                                     {item.proIntro}
                                  </p>
-                                 <a className='flex items-center justify-center w-40 h-11 mt-7 border-2 border-[#9c38ff] rounded-3xl hover:bg-[#9c38ff] xl:w-44 xl:h-12'
+                                 <a className='flex items-center justify-center w-40 h-11 mt-7 border-2 border-[#ffffff] rounded-3xl hover:bg-[#ffffff] xl:w-44 xl:h-12'
                                    href={item.proLink}
                                    target="_blank"
                                    rel="noreferrer"
