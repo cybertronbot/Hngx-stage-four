@@ -63,7 +63,7 @@ const Intro = () => {
               }}
              initial={{ opacity: 0.2, scale: 0 }}
             >
-              <a href="https://www.linkedin.com/in/michael-olaniyan-bb1359200/" target="_blank" rel="noreferrer">
+              <a href="/" target="_blank" rel="noreferrer">
                 <SlSocialLinkedin className='text-[16px] md:text-[18px]' />
               </a>
             </motion.div>
@@ -76,7 +76,7 @@ const Intro = () => {
               }}
              initial={{ opacity: 0.2, scale: 0 }}
             >
-              <a href="https://twitter.com/ipiss_chanpagne" target="_blank" rel="noreferrer">
+              <a href="https://twitter.com/rhouzmeri" target="_blank" rel="noreferrer">
                 <RiTwitterLine className='text-[18px] md:text-[20px]' />
               </a>
             </motion.div>
@@ -89,7 +89,7 @@ const Intro = () => {
               }}
              initial={{ opacity: 0.2, scale: 0 }}
             >
-              <a href="https://api.whatsapp.com/send/?phone=09090529118&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
+              <a href="https://api.whatsapp.com/send/?phone=07065155774&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
                 <FaWhatsapp className='text-[18px] md:text-[20px]' />
               </a>
             </motion.div>
