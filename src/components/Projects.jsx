@@ -93,13 +93,13 @@ const Projects = () => {
                <p className="text-[15px] mt-1 md:mt-2 md:text-[19px] lg:text-[20px] xl:mt-1">
                    02.
                </p>
-               <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#df91f7] md:text-[27px] md:font-bold lg:text-[28px]">
+               <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px]">
                    My Projects
                </p>
                <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
             </div>
             <div className='md:w-[90%] mt-5'>
-                <p className="text-sm text-[#df91f7] md:text-base xl:text-lg">Here are few projects I&apos;ve worked on</p>
+                <p className="text-sm text-[#feed7a] md:text-base xl:text-lg">Here are few projects I&apos;ve worked on</p>
             </div>
 
             <div className="flex flex-col items-center justify-start w-[100%] mt-5 md:flex-row md:flex-wrap md:justify-between">

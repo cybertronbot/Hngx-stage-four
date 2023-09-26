@@ -3,12 +3,9 @@ import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 import { GiClubs, GiDiamonds, GiSpades } from 'react-icons/gi'
-// import { IoMdHeart } from 'react-icons/io'
+
 import review1 from '../assets/review1.jpg'
-import gbolahan from '../assets/gbolahan.jpeg'
-import lex from '../assets/lex.jpeg'
-// import review4 from '../assets/review4.jpg'
-import collins from '../assets/collins.jpeg'
+
 
 
 const Reviews = () => {
