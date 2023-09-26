@@ -55,7 +55,7 @@ const About = () => {
 
         <div className="mt-5 md:w-[60%] md:mt-8 lg:w-[40%] lg:mt-0 lg:ml-10">
             <div className='xl:mb-6'>
-                <h1 className="text-[21px] font-bold mb-4 text-[#ff6d38] xl:text-[27px]">
+                <h1 className="text-[21px] font-bold mb-4 text-[#df91f7] xl:text-[27px]">
                     Skills
                 </h1>
             </div>
@@ -63,7 +63,7 @@ const About = () => {
                 {items.map((item)=>{
                     return(
                 <div key={item.index} className="flex items-center justify-start w-[40%] mb-8">
-                    <BiSolidRightArrow className='text-[#ff6d38] text-[12px]' />
+                    <BiSolidRightArrow className='text-[#df91f7] text-[12px]' />
                     <p className="text-[12px] text-[#C4C4C4] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px]">
                         {item.skill}
                     </p>
@@ -75,7 +75,7 @@ const About = () => {
         
             </div>
 
-            <a href={resume} download className='text-[13px] font-medium text-[#ff6d38] underline xl:mt-6'>
+            <a href={resume} download className='text-[13px] font-medium text-[#df91f7] underline xl:mt-6'>
                 And a whole lot more
             </a>
         </div>

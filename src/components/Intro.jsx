@@ -23,7 +23,7 @@ const Intro = () => {
             </h1>
             <div
             
-              className='sm:w-[152px] w-[80px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] border-white rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
+              className='sm:w-[152px] w-[80px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] tsx border-[#c702d3] rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
             ></div>
 
             <h1
