@@ -32,7 +32,7 @@ const Reviews = () => {
       name: 'Ikedinachim Ugochukwu',
       position: 'Software Developer | Blueprints pathway',
       review: "Michael was the best colleague to work with He is highly responsive, organised and strategic with solving problems. i have learnt a lot from him and i am sure he would do well on any team.",
-      cardIcon: <GiClubs className='text-2xl text-[#74aabc] lg:text-3xl xl:text-5xl' />,
+      cardIcon: <GiClubs className='text-2xl text-[#df91f7] lg:text-3xl xl:text-5xl' />,
     },
     // {
     //   image: review4,
