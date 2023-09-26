@@ -5,7 +5,8 @@ import alphaImg from '../assets/alphaImg.png'
 import alphaLogo from '../assets/alphaLogo.png'
 import chinaImg from '../assets/chinaImg.png'
 import chinaLogo from '../assets/chinaLogo.png'
-import padiImg from '../assets/padiImg.png'
+import spooky from '../assets/spooky.png'
+import spookylogo from '../assets/spookylogo.png'
 import padiLogo from '../assets/padiLogo.png'
 import whatsappImg from '../assets/whatsappImg.png'
 import whatsappLogo from '../assets/whatsappLogo.png'
@@ -32,8 +33,8 @@ const Projects = () => {
     const items = [
         {
             id: 1,
-            proImg: padiImg,
-            proLogo: padiLogo,
+            proImg: spooky,
+            proLogo: spookylogo,
             proLogoStyle: 'absolute h-56 w-[60%] object-contain rounded-[21.5px]',
             proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#4c4429] rounded-[20px]',
             proIntro: 'Experience a super comfortable financial lifestyle that supports your daily habits.',
