@@ -20,16 +20,16 @@ const Contacts = () => {
             <p className="text-sm font-light text-[#C4C4C4] lg:text-base xl:text-lg">
                 05. What&apos;s next?
             </p>
-            <h1 className="text-4xl font-bold text-[#74aabc] my-5 md:my-5 xl:text-5xl">
+            <h1 className="text-4xl font-bold text-[#feed7a] my-5 md:my-5 xl:text-5xl">
                 Get In Touch
             </h1>
             <p className="text-center text-sm font-light leading-6 md:w-[70%] md:text-base lg:w-[55%] lg:leading-8 xl:w-[45%] xl:text-lg
                           xl:leading-9">
                 Have any questions, need help with an exciting project, or you need an awesome developer on your team ?<br />
-                send me an <a className="text-[#74aabc] ml-1" href="#">Email.</a>
+                send me an <a className="text-[#feed7a] ml-1" href="#">Email.</a>
             </p>
             <a href="mailto:okhuomonajayi54@gmail.com?subject=" target="_blank" rel="noreferrer">
-                <button className="h-14 w-32 border-[1px] border-[#74aabc] text-[#C4C4C4] rounded-md mt-8 xl:w-36">
+                <button className="h-14 w-32 border-[1px] border-[#feed7a] text-[#feed7a] rounded-md mt-8 xl:w-36">
                     Say Hello
                 </button>
             </a>
@@ -52,7 +52,7 @@ const Contacts = () => {
 
         <div className="flex flex-col items-center justify-center w-full mb-2 md:mt-20 lg:mb-3 xl:mb-5 ">
         
-            <p className="text-xs font-light text-[#74aabc] xl:text-sm">
+            <p className="text-xs font-light text-[#feed7a] xl:text-sm">
                 Handcrafted by me © 2023
             </p>
         </div>
