@@ -1,17 +1,14 @@
 import { useEffect, useState } from 'react'
 import whalelogo from '../assets/whalelogo.png'
 import whale from '../assets/whale.png'
-import alphaImg from '../assets/alphaImg.png'
-import alphaLogo from '../assets/alphaLogo.png'
+
 import aptrack from '../assets/aptrack.png'
 import aptracklogo from '../assets/aptracklogo.png'
 import safekey from '../assets/safekey.png'
 import safekeylogo from '../assets/safekeylogo.svg'
 import spooky from '../assets/spooky.png'
 import spookylogo from '../assets/spookylogo.png'
-import padiLogo from '../assets/padiLogo.png'
-import whatsappImg from '../assets/whatsappImg.png'
-import whatsappLogo from '../assets/whatsappLogo.png'
+
 import { IoIosArrowForward } from 'react-icons/io'
 import AOS from "aos";
 import "aos/dist/aos.css";

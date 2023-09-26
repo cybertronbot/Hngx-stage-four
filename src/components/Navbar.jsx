@@ -3,7 +3,7 @@ import logo from '../assets/logo1.jpg'
 import { CiMenuFries } from 'react-icons/ci'
 import { TfiClose } from 'react-icons/tfi'
 import { motion } from 'framer-motion'
-import resume from "../assets/Michaels-resume.pdf"
+
 
 const Navbar = () => {
     const [drawer, setDrawer] = useState(false)
@@ -73,7 +73,7 @@ const Navbar = () => {
                 <p className='text-[#C4C4C4]'>04.</p>
                 <p className='text-[#feed7a]'>Contact</p>
               </a>
-              <a href={resume} download>
+              <a >
                 <button className='w-36 h-12 rounded text-center text-[14px] text-[#C4C4C4] border-[0.01em] border-[#feed7a] mt-14'>
                    Resume
                 </button>
@@ -104,7 +104,7 @@ const Navbar = () => {
             <p className='text-[#C4C4C4]'>04.</p>
             <p className='ml-2 text-[#feed7a]'>Contact</p>
           </a>
-          <a href={resume} download>
+          <a >
               <button className='w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[#C4C4C4] border-[0.01em] border-[#feed7a] xl:text-[15px]
               xl:ml-5'>
                  Resume

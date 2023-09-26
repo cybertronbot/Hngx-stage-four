@@ -1,5 +1,5 @@
 import { BiSolidRightArrow } from 'react-icons/bi'
-import resume from "../assets/Michaels-resume.pdf"
+
 
 const About = () => {
     const items = [
