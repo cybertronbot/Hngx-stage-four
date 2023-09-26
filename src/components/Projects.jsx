@@ -30,21 +30,9 @@ const Projects = () => {
       }, []);
 
     const items = [
+     
         {
             id: 1,
-            proImg: spooky,
-            proLogo: spookylogo,
-            proLogoStyle: 'absolute h-56 w-[60%] object-contain rounded-[21.5px]',
-            proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#4c4429] rounded-[20px]',
-            proIntro: 'A WEB3 Nft Display website',
-            proLink: 'https://spooky-iota.vercel.app/',
-            aos: 'fade-right',
-            offset: "100", 
-            easing: "ease-in-sine",
-            duration: "2000"
-        },
-        {
-            id: 2,
             proImg: aptrack,
             proLogo: aptracklogo,
             proLogoStyle: 'absolute h-56 w-[75%] object-contain rounded-[21.5px]',
@@ -57,7 +45,7 @@ const Projects = () => {
             duration: "2000"
         },
         {
-            id: 3,
+            id: 2,
             proImg: safekey,
             proLogo: safekeylogo,
             proLogoStyle: 'absolute h-56 w-[70%] object-contain rounded-[21.5px]',
@@ -70,7 +58,7 @@ const Projects = () => {
             duration: "2000"
         },
         {
-            id: 4,
+            id: 3,
             proImg: whale,
             proLogo: whalelogo,
             proLogoStyle: 'absolute h-56 w-[100%] object-contain rounded-[21.5px]',
@@ -82,6 +70,21 @@ const Projects = () => {
             easing: "ease-in-sine",
             duration: "2000"
         },
+        {
+            id: 4,
+            proImg: spooky,
+            proLogo: spookylogo,
+            proLogoStyle: 'absolute h-56 w-[60%] object-contain rounded-[21.5px]',
+            proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#4c4429] rounded-[20px]',
+            proIntro: 'A WEB3 Nft Display website',
+            proLink: 'https://spooky-iota.vercel.app/',
+            aos: 'fade-right',
+            offset: "100", 
+            easing: "ease-in-sine",
+            duration: "2000"
+        },
+       
+       
         
     ]
 
