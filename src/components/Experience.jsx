@@ -20,7 +20,7 @@ const Experience = () => {
     {
       id: 2,
       title: 'Opportunity Solutions',
-      date: '2021 - 2022',
+      date: '2021 - present',
       logo: ostech,
       location: 'Gbagada, Lagos',
       details: 'Worked with senior developers to implement responsive designs, Gained hands-on experience with different frontend development technologies.',
@@ -70,9 +70,9 @@ const Experience = () => {
                <div className='flex flex-col items-start justify-center w-full bg-[#070707] px-5 py-6 rounded-md mt-5 md:px-8 xl:px-12'>
                 <img className='w-24 my-8' src={item.logo} alt="..." />
                 <div className='flex items-center justify-start w-full'>
-                  <IoLocationSharp className='text-[#ae63f9] text-2xl' />
+                  <IoLocationSharp className='text-[#feed7a] text-2xl' />
                   <p className='pl-1 text-sm text-[#C4C4C4] md:text-base'>
-                    Lekki, Lagos
+                    {item.location}
                   </p>
                 </div>
                 <p className='text-sm pt-2 leading-6 md:text-base md:pr-4 md:w-[95%] lg:w-[85%] xl:leading-7 xl:text-[17px] xl:w-[95%]'>
