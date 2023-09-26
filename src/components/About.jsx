@@ -58,7 +58,7 @@ const About = () => {
 
         <div className="mt-5 md:w-[60%] md:mt-8 lg:w-[40%] lg:mt-0 lg:ml-10">
             <div className='xl:mb-6'>
-                <h1 className="text-[21px] font-bold mb-4 text-[#feed7a] xl:text-[27px]">
+                <h1 className="text-[21px] font-bold mb-4 text-[#feed7a] xl:text-[27px] font-peralta">
                     Skills
                 </h1>
             </div>
