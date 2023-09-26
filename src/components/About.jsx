@@ -52,7 +52,7 @@ const About = () => {
                <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
             </div>
             <div className='md:w-[90%] lg:-[100%]'>
-                <p>Much like the Autobots of Cybertron, I was forged in the fires of innovation, emerging as a frontend developer with an insatiable curiosity for the infinite possibilities of the web. My journey began on the binary plains of Cybertron, where I honed my skills amidst the cascading streams of data and the electric hum of servers.As a frontend developer, I wield a formidable arsenal of programming languages and tools, each as essential as the Energon cubes that power Cybertron.My mission on this cosmic voyage is to craft seamless, user-centric interfaces that bridge the gap between humans and machines. Just as I led the Autobots in the battle for freedom, I now lead teams in the pursuit of excellence, orchestrating harmonious symphonies of code.In my travels, I've collaborated with a multitude of species from across the universe, from fellow developers to designers and project managers. Together, we've embarked on epic quests to deliver pixel-perfect designs, ensuring that every website or application I touch is as awe-inspiring as the landscapes of Cybertron itself.</p>
+                <p className='font-peralta'>Much like the Autobots of Cybertron, I was forged in the fires of innovation, emerging as a frontend developer with an insatiable curiosity for the infinite possibilities of the web. My journey began on the binary plains of Cybertron, where I honed my skills amidst the cascading streams of data and the electric hum of servers.As a frontend developer, I wield a formidable arsenal of programming languages and tools, each as essential as the Energon cubes that power Cybertron.My mission on this cosmic voyage is to craft seamless, user-centric interfaces that bridge the gap between humans and machines. Just as I led the Autobots in the battle for freedom, I now lead teams in the pursuit of excellence, orchestrating harmonious symphonies of code.In my travels, I've collaborated with a multitude of species from across the universe, from fellow developers to designers and project managers. Together, we've embarked on epic quests to deliver pixel-perfect designs, ensuring that every website or application I touch is as awe-inspiring as the landscapes of Cybertron itself.</p>
             </div>
         </div>
 
@@ -67,7 +67,7 @@ const About = () => {
                     return(
                 <div key={item.index} className="flex items-center justify-start w-[40%] mb-8">
                     <BiSolidRightArrow className='text-[#feed7a] text-[12px]' />
-                    <p className="text-[12px] text-[#feed7a] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px]">
+                    <p className="text-[12px] text-[#feed7a] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px] font-peralta">
                         {item.skill}
                     </p>
                 </div>
@@ -78,7 +78,7 @@ const About = () => {
         
             </div>
 
-            <a href='#' download className='text-[13px] font-medium text-[#feed7a] underline xl:mt-6'>
+            <a href='#' download className='text-[13px] font-medium text-[#feed7a] underline xl:mt-6 font-peralta'>
                 And a whole lot more
             </a>
         </div>
