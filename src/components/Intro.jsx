@@ -11,8 +11,7 @@ const Intro = () => {
         <p className="text-[14px] text-[#C4C4C4] font-light mb-1 md:font-light md:mb-2 md:text-[16px] lg:mb-1">
             Hi, my name is
         </p>
-        <h1 className="poppins text-[38px] font-[800] tracking-wider mb-1 bg-gradient-to-r from-[#9c38ff] to-[#74aabc] text-transparent bg-clip-text
-        md:text-[48px] lg:text-[55px] xl:text-[68px]">
+        <h1 className=" text-[38px] font-semibold  mb-1 txt md:text-[48px] lg:text-[55px] xl:text-[68px] font-clash">
      ROSEMARY
         </h1>
         <p className="text-[30px] text-[#C4C4C4] font-[700] leading-9 mb-6 md:text-[41px] md:leading-[2.9rem] md:mb-7 md:font-[600] lg:text-[50px] lg:w-[80%]
