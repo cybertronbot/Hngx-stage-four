@@ -11,7 +11,7 @@ import Contacts from "./components/Contacts"
 const App = () => {
   return (
     <div className="relative">
-          
+            <div class="noise"></div>
       <Home>
            <Navbar />
            <Intro />
