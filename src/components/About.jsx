@@ -49,29 +49,13 @@ const About = () => {
                <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
             </div>
             <div className='md:w-[90%] lg:-[100%]'>
-                <p className="text-[13px] font-normal leading-5 mb-2 text-[#C4C4C4] md:text-[16px] md:leading-6 lg:text-[16px] lg:font-light xl:text-[18px] xl:leading-8">
-                    My name is Rosemary Ajayi, i am a Frontend Engineer. I thrive on the perfect blend of creativity and logic that front-end development demands. 
-                </p>
-
-                <p className="text-[13px] font-normal leading-5 mb-2 text-[#C4C4C4] md:text-[16px] md:leading-6 lg:text-[16px] lg:font-light xl:text-[18px] xl:leading-8">
-                     &quot;I find joy in every step of the process&quot;, The challenge of making websites not just functional, but also beautiful and
-                     user-friendly, is what fuels my dedication to this craft.
-                </p>
-
-                <p className="text-[13px] font-normal leading-5 mb-2 text-[#C4C4C4] md:text-[16px] md:leading-6 lg:text-[16px] lg:font-light xl:text-[18px] xl:leading-8">
-                     I prioritize collaboration and communication. Understanding my client&apos;s vision and the end-users needs 
-                     allows me to create solutions that resonates. 
-                </p>
-
-                <p className="text-[13px] font-normal leading-5 mb-2 text-[#C4C4C4] md:text-[16px] md:leading-6 lg:text-[16px] lg:font-light xl:text-[18px] xl:leading-8">
-                     While coding keeps me engaged, I also have a soft spot for designs and i love listening to good music. 
-                </p>
+                <p>Much like the Autobots of Cybertron, I was forged in the fires of innovation, emerging as a frontend developer with an insatiable curiosity for the infinite possibilities of the web. My journey began on the binary plains of Cybertron, where I honed my skills amidst the cascading streams of data and the electric hum of servers.As a frontend developer, I wield a formidable arsenal of programming languages and tools, each as essential as the Energon cubes that power Cybertron.My mission on this cosmic voyage is to craft seamless, user-centric interfaces that bridge the gap between humans and machines. Just as I led the Autobots in the battle for freedom, I now lead teams in the pursuit of excellence, orchestrating harmonious symphonies of code.In my travels, I've collaborated with a multitude of species from across the universe, from fellow developers to designers and project managers. Together, we've embarked on epic quests to deliver pixel-perfect designs, ensuring that every website or application I touch is as awe-inspiring as the landscapes of Cybertron itself.</p>
             </div>
         </div>
 
         <div className="mt-5 md:w-[60%] md:mt-8 lg:w-[40%] lg:mt-0 lg:ml-10">
             <div className='xl:mb-6'>
-                <h1 className="text-[21px] font-bold mb-4 text-[#74aabc] xl:text-[27px]">
+                <h1 className="text-[21px] font-bold mb-4 text-[#ff6d38] xl:text-[27px]">
                     Skills
                 </h1>
             </div>
@@ -79,7 +63,7 @@ const About = () => {
                 {items.map((item)=>{
                     return(
                 <div key={item.index} className="flex items-center justify-start w-[40%] mb-8">
-                    <BiSolidRightArrow className='text-[#74aabc] text-[12px]' />
+                    <BiSolidRightArrow className='text-[#ff6d38] text-[12px]' />
                     <p className="text-[12px] text-[#C4C4C4] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px]">
                         {item.skill}
                     </p>
@@ -91,7 +75,7 @@ const About = () => {
         
             </div>
 
-            <a href={resume} download className='text-[13px] font-medium text-[#ba7cf7] underline xl:mt-6'>
+            <a href={resume} download className='text-[13px] font-medium text-[#ff6d38] underline xl:mt-6'>
                 And a whole lot more
             </a>
         </div>
