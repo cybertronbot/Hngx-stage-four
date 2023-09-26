@@ -47,7 +47,7 @@ const Experience = () => {
         {items.map((item)=>{
           return(
         <div key={item.id} className='flex flex-col items-center justify-start w-full my-3'>
-             <div className="flex items-center justify-between w-full rounded-md bg-[#ff8400] border-[0.08em] border-[#9c38ff] h-14 px-3 md:px-7">
+             <div className="flex items-center justify-between w-full rounded-md bg-[#df91f7] border-[0.08em] border-[#9c38ff] h-14 px-3 md:px-7">
                <p className="text-white text-sm text font-semibold md:text-base xl:text-lg">
                  {item.title}
                </p>
@@ -67,7 +67,7 @@ const Experience = () => {
              </div>
 
              {isExpanded == item.id && (
-               <div className='flex flex-col items-start justify-center w-full bg-[#ff840088] px-5 py-6 rounded-md mt-5 md:px-8 xl:px-12'>
+               <div className='flex flex-col items-start justify-center w-full bg-[#df91f7] px-5 py-6 rounded-md mt-5 md:px-8 xl:px-12'>
                 <img className='w-24 my-8' src={item.logo} alt="..." />
                 <div className='flex items-center justify-start w-full'>
                   <IoLocationSharp className='text-[#ae63f9] text-2xl' />
