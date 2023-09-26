@@ -158,7 +158,7 @@ const Projects = () => {
         </div>
 
         <div className='flex items-center justify-center w-full mt-3'>
-            <p className='text-sm text-[#df91f7] md:text-base xl:text-lg'>
+            <p className='text-sm text-[#feed7a] md:text-base xl:text-lg'>
                 want to see more?
             </p>
              <a  href="mailto:okhuomonajayi54@gmail.com?subject=" target="_blank" rel="noreferrer"

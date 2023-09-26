@@ -35,7 +35,7 @@ const Experience = () => {
           <p className="text-[15px] mt-1 md:mt-2 md:text-[19px] lg:text-[20px] xl:mt-1">
               03.
           </p>
-          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#C4C4C4] md:text-[27px] md:font-bold lg:text-[28px]">
+          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px]">
               Experience
           </p>
           <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
@@ -47,7 +47,7 @@ const Experience = () => {
         {items.map((item)=>{
           return(
         <div key={item.id} className='flex flex-col items-center justify-start w-full my-3'>
-             <div className="flex items-center justify-between w-full rounded-md bg-[#df91f7] border-[0.08em] border-[#9c38ff] h-14 px-3 md:px-7">
+             <div className="flex items-center justify-between w-full rounded-md bg-[#ff8400] border-[0.08em] border-[#9c38ff] h-14 px-3 md:px-7">
                <p className="text-white text-sm text font-semibold md:text-base xl:text-lg">
                  {item.title}
                </p>
@@ -67,7 +67,7 @@ const Experience = () => {
              </div>
 
              {isExpanded == item.id && (
-               <div className='flex flex-col items-start justify-center w-full bg-[#df91f7] px-5 py-6 rounded-md mt-5 md:px-8 xl:px-12'>
+               <div className='flex flex-col items-start justify-center w-full bg-[#070707] px-5 py-6 rounded-md mt-5 md:px-8 xl:px-12'>
                 <img className='w-24 my-8' src={item.logo} alt="..." />
                 <div className='flex items-center justify-start w-full'>
                   <IoLocationSharp className='text-[#ae63f9] text-2xl' />
