@@ -18,21 +18,21 @@ const Reviews = () => {
       name: 'Veracruz Francis',
       position: 'CEO UMscope',
       review: "With immaculate ease, Micheal has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
-      cardIcon: <GiSpades className='text-2xl text-[#df91f7] lg:text-3xl xl:text-5xl' />,
+      cardIcon: <GiSpades className='text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl' />,
     },
     {
       image: review1,
       name: 'Olajuwon Olalekan',
       position: 'Product Designer at LexCreate',
       review: "Ensuring developers adhere precisely to your intended design is a frequent challenge, but this isn't the situation with Michal. He faithfully translates my designs without any deviation. Collaborating with him is effortless due to his meticulous focus on the finer points.",
-      cardIcon: <GiDiamonds className='text-2xl text-[#df91f7] lg:text-3xl xl:text-5xl' />,
+      cardIcon: <GiDiamonds className='text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl' />,
     },
     {
       image: review1,
       name: 'Ikedinachim Ugochukwu',
       position: 'Software Developer | Blueprints pathway',
       review: "Michael was the best colleague to work with He is highly responsive, organised and strategic with solving problems. i have learnt a lot from him and i am sure he would do well on any team.",
-      cardIcon: <GiClubs className='text-2xl text-[#df91f7] lg:text-3xl xl:text-5xl' />,
+      cardIcon: <GiClubs className='text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl' />,
     },
     // {
     //   image: review4,
@@ -81,7 +81,7 @@ const Reviews = () => {
           return(
         <SwiperSlide 
         key={item.id} 
-        className='flex flex-col items-center justify-center w-full bg-[#000000] rounded-xl border-[1px] border-[#df91f7] p-2'
+        className='flex flex-col items-center justify-center w-full bg-[#000000] rounded-xl border-[1px] border-[#feed7a] p-2'
         >
             <div className='absolute top-2 flex items-start justify-between w-[95%]'>
               {item.cardIcon}

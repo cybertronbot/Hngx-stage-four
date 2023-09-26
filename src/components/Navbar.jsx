@@ -56,25 +56,25 @@ const Navbar = () => {
                <a href='#about' onClick={handleDrawer}
                className='text-[17px] flex flex-col items-center justify-center w-full mb-4'>
                  <p className='text-[#C4C4C4]'>01.</p>
-                 <p className='text-[#ff6d38]'>About</p>
+                 <p className='text-[#feed7a]'>About</p>
                </a>
               <a href='#work' onClick={handleDrawer} 
               className='text-[17px] flex flex-col items-center justify-center w-full my-4'>
                 <p className='text-[#C4C4C4]'>02.</p>
-                <p className='text-[#9c38ff]'>Work</p>
+                <p className='text-[#feed7a]'>Work</p>
               </a>
                <a href='#experience' onClick={handleDrawer}
                className='text-[17px] flex flex-col items-center justify-center w-full my-4'>
                 <p className='text-[#C4C4C4]'>03.</p>
-                <p className='text-[#9c38ff]'>Experience</p>
+                <p className='text-[#feed7a]'>Experience</p>
               </a>
               <a href='#contact' onClick={handleDrawer}
               className='text-[17px] flex flex-col items-center justify-center w-full mt-4'>
                 <p className='text-[#C4C4C4]'>04.</p>
-                <p className='text-[#9c38ff]'>Contact</p>
+                <p className='text-[#feed7a]'>Contact</p>
               </a>
               <a href={resume} download>
-                <button className='w-36 h-12 rounded text-center text-[14px] text-[#C4C4C4] border-[0.01em] border-[#74aabc] mt-14'>
+                <button className='w-36 h-12 rounded text-center text-[14px] text-[#C4C4C4] border-[0.01em] border-[#feed7a] mt-14'>
                    Resume
                 </button>
               </a>
@@ -90,22 +90,22 @@ const Navbar = () => {
         <div className='hidden lg:flex items-center justify-end w-full mt-10'>
           <a href='#about' className='text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5'>
             <p className='text-[#C4C4C4]'>01.</p>
-            <p className='ml-2 text-[#c702d3]'>About</p>
+            <p className='ml-2 text-[#feed7a]'>About</p>
           </a>
           <a href='#work' className='text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5'>
             <p className='text-[#C4C4C4]'>02.</p>
-            <p className='ml-2 text-[#c702d3]'>Work</p>
+            <p className='ml-2 text-[#feed7a]'>Work</p>
           </a>
           <a href='#experience' className='text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5'>
             <p className='text-[#C4C4C4]'>03.</p>
-            <p className='ml-2 text-[#c702d3]'>Experience</p>
+            <p className='ml-2 text-[#feed7a]'>Experience</p>
           </a>
           <a href='#contact' className='text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5'>
             <p className='text-[#C4C4C4]'>04.</p>
-            <p className='ml-2 text-[#c702d3]'>Contact</p>
+            <p className='ml-2 text-[#feed7a]'>Contact</p>
           </a>
           <a href={resume} download>
-              <button className='w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[#C4C4C4] border-[0.01em] border-[#c702d3] xl:text-[15px]
+              <button className='w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[#C4C4C4] border-[0.01em] border-[#feed7a] xl:text-[15px]
               xl:ml-5'>
                  Resume
               </button>
