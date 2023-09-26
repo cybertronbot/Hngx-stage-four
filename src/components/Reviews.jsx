@@ -81,7 +81,7 @@ const Reviews = () => {
           return(
         <SwiperSlide 
         key={item.id} 
-        className='flex flex-col items-center justify-center w-full bg-[#10101A] rounded-xl border-[1px] border-[#74aabc] p-2'
+        className='flex flex-col items-center justify-center w-full bg-[#000000] rounded-xl border-[1px] border-[#df91f7] p-2'
         >
             <div className='absolute top-2 flex items-start justify-between w-[95%]'>
               {item.cardIcon}
