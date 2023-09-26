@@ -47,7 +47,7 @@ const Experience = () => {
         {items.map((item)=>{
           return(
         <div key={item.id} className='flex flex-col items-center justify-start w-full my-3'>
-             <div className="flex items-center justify-between w-full rounded-md bg-[#ff8400] border-[0.08em] border-[#9c38ff] h-14 px-3 md:px-7">
+             <div className="flex items-center justify-between w-full rounded-md bg-[#ff8400] border-[0.08em]  h-14 px-3 md:px-7">
                <p className="text-white text-sm text font-semibold md:text-base xl:text-lg">
                  {item.title}
                </p>
