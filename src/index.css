@@ -46,35 +46,7 @@
     }
 
   }
-  .gradient-01 {
-    background: linear-gradient(
-      -150deg,
-      #15bffd00 0%,
-      #15bffd00 26%,
-      hsla(257, 69%, 86%, 0) 39%,
-      rgba(141, 0, 206, 0) 40%,
-      #ff008400 59%,
   
-      rgba(255, 0, 131, 0.5) 60%,
-      rgba(141, 0, 206, 0.5) 80%,
-      rgba(141, 0, 206, 0.5) 100%
-    );
-  
-    filter: blur(100px);
-  }
-  .bg-gradient {
-    background: linear-gradient(
-      157.81deg,
-      #def9fa00 -43.27%,
-      #bef3f500 -21.24%,
-      #9dedf000 12.19%,
-      rgb(141, 0, 206)  29.82%,
-      rgba(255, 0, 132) 51.94%,
-      rgba(255, 0, 132, 0.5) 90.29%
-    );
-    filter: blur(100px);
-  
-  }  
   .txt {
     background: linear-gradient(
         272.61deg,
