@@ -11,23 +11,23 @@ const Intro = () => {
         <p className="text-[14px] text-[#C4C4C4] font-light mb-1 md:font-light md:mb-2 md:text-[16px] lg:mb-1">
             Hi, Welcome to 
         </p>
-        <h1 className=" text-[38px] font-bold leading-[95px]  mb-1 text-[#c702d3] md:text-[48px] lg:text-[55px] xl:text-[80px] font-peralta">
+        <h1 className=" text-[38px] font-bold leading-[95px]  mb-1 txt md:text-[48px] lg:text-[55px] xl:text-[80px] font-peralta">
      ROSEVERSE 
         </h1>
         <div className='flex z-10 justify-center sm:mt-0 mt-[-60px] sm:mb-0 mb-[-20px] font-peralta'>
             <h1
-              className='sm:text-[80px] text-[50px] text-[#c702d3] uppercase font-bold leading-[114px] z-10 flex justify-center items-center '
+              className='sm:text-[80px] text-[50px] txt uppercase font-bold leading-[114px] z-10 flex justify-center items-center '
        
             >
               Ma
             </h1>
             <div
             
-              className='sm:w-[152px] w-[80px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] tsx border-[#c702d3] rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
+              className='sm:w-[152px] w-[80px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] tsx border-[#df91f7] rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
             ></div>
 
             <h1
-              className='text-[#c702d3] sm:text-[80px] text-[45px] uppercase font-bold leading-[114px] z-10 flex justify-center items-center'
+              className='txt sm:text-[80px] text-[45px] uppercase font-bold leading-[114px] z-10 flex justify-center items-center'
      
             >
               ness
@@ -40,7 +40,7 @@ const Intro = () => {
         </p>
        
         <div className="w-full mt-12 lg:hidden">
-          <div className="flex items-start justify-between w-[45%] mb-1 text-[#ff6d38] md:mb-2">
+          <div className="flex items-start justify-between w-[45%] mb-1 text-[#c702d3] md:mb-2">
 
             <motion.div
                animate={{ x: [-100, 0], opacity: [0.5, 1], scale: 1 }}

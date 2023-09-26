@@ -60,11 +60,4 @@
     background-clip: text;
     text-fill-color: transparent;
   }
-  .tsx{
-    background: linear-gradient(
-        272.61deg,
-        #feed7a 43.38%,
-        #ff8400 70.17%,
-        #df91f7 98.11%
-      ),
-  }
+  
