@@ -23,7 +23,7 @@ const Intro = () => {
             </h1>
             <div
             
-              className='sm:w-[152px] w-[80px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] tsx border-[#df91f7] rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
+              className='sm:w-[152px] w-[80px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] tsx border-[ff8400] rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
             ></div>
 
             <h1
@@ -40,7 +40,7 @@ const Intro = () => {
         </p>
        
         <div className="w-full mt-12 lg:hidden">
-          <div className="flex items-start justify-between w-[45%] mb-1 text-[#c702d3] md:mb-2">
+          <div className="flex items-start justify-between w-[45%] mb-1 text-[#feed7a] md:mb-2">
 
             <motion.div
                animate={{ x: [-100, 0], opacity: [0.5, 1], scale: 1 }}

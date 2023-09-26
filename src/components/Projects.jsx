@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
-import bwecImg from '../assets/bwecImg.png'
-import bwecLogo from '../assets/bwecLogo.png'
+import whalelogo from '../assets/whalelogo.png'
+import whale from '../assets/whale.png'
 import alphaImg from '../assets/alphaImg.png'
 import alphaLogo from '../assets/alphaLogo.png'
-import chinaImg from '../assets/chinaImg.png'
-import chinaLogo from '../assets/chinaLogo.png'
+import aptrack from '../assets/aptrack.png'
+import aptracklogo from '../assets/aptracklogo.png'
+import safekey from '../assets/safekey.png'
+import safekeylogo from '../assets/safekeylogo.svg'
 import spooky from '../assets/spooky.png'
 import spookylogo from '../assets/spookylogo.png'
 import padiLogo from '../assets/padiLogo.png'
@@ -38,7 +40,7 @@ const Projects = () => {
             proLogoStyle: 'absolute h-56 w-[60%] object-contain rounded-[21.5px]',
             proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#4c4429] rounded-[20px]',
             proIntro: 'Experience a super comfortable financial lifestyle that supports your daily habits.',
-            proLink: 'https://padicash.io/',
+            proLink: 'https://spooky-iota.vercel.app/',
             aos: 'fade-right',
             offset: "100", 
             easing: "ease-in-sine",
@@ -46,8 +48,8 @@ const Projects = () => {
         },
         {
             id: 2,
-            proImg: chinaImg,
-            proLogo: chinaLogo,
+            proImg: aptrack,
+            proLogo: aptracklogo,
             proLogoStyle: 'absolute h-56 w-[75%] object-contain rounded-[21.5px]',
             proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#1d1d4e] rounded-[20px]',
             proIntro: 'Procurement agency dedicated to providing seamless logistics solutions tailored to meet your needs.',
@@ -59,8 +61,8 @@ const Projects = () => {
         },
         {
             id: 3,
-            proImg: bwecImg,
-            proLogo: bwecLogo,
+            proImg: safekey,
+            proLogo: safekeylogo,
             proLogoStyle: 'absolute h-56 w-[70%] object-contain rounded-[21.5px]',
             proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#182862] rounded-[20px]',
             proIntro: 'learning opportunities to individuals and people in marginalized black communities.',
@@ -72,8 +74,8 @@ const Projects = () => {
         },
         {
             id: 4,
-            proImg: alphaImg,
-            proLogo: alphaLogo,
+            proImg: whale,
+            proLogo: whalelogo,
             proLogoStyle: 'absolute h-56 w-[100%] object-contain rounded-[21.5px]',
             proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#c5c3c3] rounded-[20px]',
             proIntro: 'An international cyber secutity, DevOps and Data solutions company.',
@@ -83,19 +85,7 @@ const Projects = () => {
             easing: "ease-in-sine",
             duration: "2000"
         },
-        {
-            id: 5,
-            proImg: whatsappImg,
-            proLogo: whatsappLogo,
-            proLogoStyle: 'absolute h-56 w-[45%] object-contain rounded-[21.5px]',
-            proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#294522] rounded-[20px]',
-            proIntro: 'An exploration of design with an idea around user experience and accessibility.',
-            proLink: 'https://whatsapp-tobiloba007.vercel.app/',
-            aos: 'fade-right',
-            offset: "100", 
-            easing: "ease-in-sine",
-            duration: "2000"
-        },
+        
     ]
 
   return (
@@ -174,7 +164,7 @@ const Projects = () => {
             <p className='text-sm text-[#74aabc] md:text-base xl:text-lg'>
                 want to see more?
             </p>
-             <a  href="mailto:Olaniyanmichael0@gmail.com?subject=" target="_blank" rel="noreferrer"
+             <a  href="mailto:okhuomonajayi54@gmail.com?subject=" target="_blank" rel="noreferrer"
              className='text-sm underline underline-offset-2 pl-1 md:text-base md:pl-2 xl:text-lg'
                 > Email me.</a>
         </div>

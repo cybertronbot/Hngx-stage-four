@@ -4,7 +4,7 @@ import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 import { GiClubs, GiDiamonds, GiSpades } from 'react-icons/gi'
 // import { IoMdHeart } from 'react-icons/io'
-// import review1 from '../assets/review1.jpg'
+import review1 from '../assets/review1.jpg'
 import gbolahan from '../assets/gbolahan.jpeg'
 import lex from '../assets/lex.jpeg'
 // import review4 from '../assets/review4.jpg'
@@ -14,21 +14,21 @@ import collins from '../assets/collins.jpeg'
 const Reviews = () => {
   const items = [
     {
-      image: gbolahan,
+      image: review1,
       name: 'Veracruz Francis',
       position: 'CEO UMscope',
       review: "With immaculate ease, Micheal has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
       cardIcon: <GiSpades className='text-2xl text-[#74aabc] lg:text-3xl xl:text-5xl' />,
     },
     {
-      image: lex,
+      image: review1,
       name: 'Olajuwon Olalekan',
       position: 'Product Designer at LexCreate',
       review: "Ensuring developers adhere precisely to your intended design is a frequent challenge, but this isn't the situation with Michal. He faithfully translates my designs without any deviation. Collaborating with him is effortless due to his meticulous focus on the finer points.",
       cardIcon: <GiDiamonds className='text-2xl text-[#74aabc] lg:text-3xl xl:text-5xl' />,
     },
     {
-      image: collins,
+      image: review1,
       name: 'Ikedinachim Ugochukwu',
       position: 'Software Developer | Blueprints pathway',
       review: "Michael was the best colleague to work with He is highly responsive, organised and strategic with solving problems. i have learnt a lot from him and i am sure he would do well on any team.",
