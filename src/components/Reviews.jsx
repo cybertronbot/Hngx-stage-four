@@ -14,37 +14,24 @@ const Reviews = () => {
       image: review1,
       name: 'John Doe',
       position: 'Lorem ipsum',
-      review: "With immaculate ease, Micheal has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
+      review: "With immaculate ease, Rosemary has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
       cardIcon: <GiSpades className='text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl' />,
     },
     {
       image: review1,
       name: 'John Doe',
       position: 'Lorem ipsum',
-      review: "With immaculate ease, Micheal has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
+      review: "With immaculate ease, Rosemary has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
       cardIcon: <GiSpades className='text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl' />,
     },
     {
       image: review1,
       name: 'John Doe',
       position: 'Lorem ipsum',
-      review: "With immaculate ease, Micheal has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
+      review: "With immaculate ease, Rosemary  has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
       cardIcon: <GiSpades className='text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl' />,
     },
-    // {
-    //   image: review4,
-    //   name: 'Emmanuel Cole',
-    //   position: 'Founder, Blossom kiddies High sch.',
-    //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi ab soluta ratione sapiente reiciendis hic iste! Praesentium eaque tempore at, velit ab facilis dolorem.',
-    //   cardIcon: <IoMdHeart className='text-2xl text-[#74aabc] lg:text-3xl xl:text-5xl' />,
-    // },
-    // {
-    //   image: collins,
-    //   name: 'Jude Ogunaike',
-    //   position: 'Founder, Blossom kiddies High sch.',
-    //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi ab soluta ratione sapiente reiciendis hic iste! Praesentium eaque tempore at, velit ab facilis dolorem.',
-    //   cardIcon: <IoMdHeart className='text-2xl text-[#74aabc] lg:text-3xl xl:text-5xl' />,
-    // },
+  
    
   ] 
   return (
