@@ -75,7 +75,7 @@ const About = () => {
         
             </div>
 
-            <a href={resume} download className='text-[13px] font-medium text-[#df91f7] underline xl:mt-6'>
+            <a href='#' download className='text-[13px] font-medium text-[#df91f7] underline xl:mt-6'>
                 And a whole lot more
             </a>
         </div>
