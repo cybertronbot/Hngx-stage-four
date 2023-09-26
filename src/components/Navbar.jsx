@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="fixed top-10 flex items-center justify-between w-[85%] z-30 bg-[#000000b5] border-[0.01em] border-[#3d3b4b] rounded-2xl h-[3.9rem] 
         p-4 lg:hidden">
             <div className='flex items-center justify-start w-full'>
-               <img className='h-8 rounded-full'
+               <img className='h-8 w-full object-cover rounded-full'
                src={logo} alt="logo" />
                <div className='container'>
                   <p className='scrolling-text text-[#C4C4C4] ml-2 text-[10px] font-semibold tracking-widest'>
