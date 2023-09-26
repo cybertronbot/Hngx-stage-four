@@ -16,7 +16,7 @@ const Home = ({children}) => {
   return (
     <div>
         <div className="md:flex md:items-start md:justify-center md:w-full md:px-7">
-
+     
            {/* <div data-aos="fade-up" data-aos-duration="2500" */}
            <motion.div 
              animate={{ y: [330, 0], opacity: [0, 0.1, 0.3, 0.5, 0.7, 1], scale: 1 }}

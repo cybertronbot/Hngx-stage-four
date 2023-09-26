@@ -51,7 +51,7 @@ const Navbar = () => {
           }}
           initial={{ opacity: 1, scale: 1 }}
          className='fixed top-0 flex justify-end w-full h-[100vh] z-20 backdrop-blur-sm lg:hidden'>
-
+     
             <div className='flex flex-col items-center justify-center w-[75%] pt-7 bg-[#10101A] shadow-2xl shadow-[#323232] md:w-[50%] md:pt-24'>
                <a href='#about' onClick={handleDrawer}
                className='text-[17px] flex flex-col items-center justify-center w-full mb-4'>

@@ -56,6 +56,8 @@ const Contacts = () => {
                 Handcrafted by me © 2023
             </p>
         </div>
+        <div className='relative'></div>
+            <div className='gradient-01 absolute w-[30%] inset-0 ' />
 
     </div>
   )

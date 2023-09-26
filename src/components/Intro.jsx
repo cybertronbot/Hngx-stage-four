@@ -23,7 +23,7 @@ const Intro = () => {
             I am a passionate front-end developer with love for creating visually appealing and user-friendly websites. <br /> 
             My journey began with the excitement of bringing designs to life through code, and I&apos;ve been hooked ever since.
         </p>
-
+       
         <div className="w-full mt-12 lg:hidden">
           <div className="flex items-start justify-between w-[45%] mb-1 text-[#9c38ff] md:mb-2">
 
