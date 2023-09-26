@@ -105,7 +105,7 @@ const Navbar = () => {
             <p className='ml-2 text-[#df91f7]'>Contact</p>
           </a>
           <a href={resume} download>
-              <button className='w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[#C4C4C4] border-[0.01em] border-[#df91f7] xl:text-[15px]
+              <button className='w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[#C4C4C4] border-[0.01em] border-[#c702d3] xl:text-[15px]
               xl:ml-5'>
                  Resume
               </button>

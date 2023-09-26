@@ -11,12 +11,12 @@ const Intro = () => {
         <p className="text-[14px] text-[#C4C4C4] font-light mb-1 md:font-light md:mb-2 md:text-[16px] lg:mb-1">
             Hi, Welcome to 
         </p>
-        <h1 className=" text-[38px] font-bold leading-[95px]  mb-1 txt md:text-[48px] lg:text-[55px] xl:text-[80px] font-peralta">
+        <h1 className=" text-[38px] font-bold leading-[95px]  mb-1 text-[#c702d3] md:text-[48px] lg:text-[55px] xl:text-[80px] font-peralta">
      ROSEVERSE 
         </h1>
         <div className='flex z-10 justify-center sm:mt-0 mt-[-60px] sm:mb-0 mb-[-20px] font-peralta'>
             <h1
-              className='sm:text-[80px] text-[50px] txt uppercase font-bold leading-[114px] z-10 flex justify-center items-center '
+              className='sm:text-[80px] text-[50px] text-[#c702d3] uppercase font-bold leading-[114px] z-10 flex justify-center items-center '
        
             >
               Ma
@@ -27,7 +27,7 @@ const Intro = () => {
             ></div>
 
             <h1
-              className='txt sm:text-[80px] text-[45px] uppercase font-bold leading-[114px] z-10 flex justify-center items-center'
+              className='text-[#c702d3] sm:text-[80px] text-[45px] uppercase font-bold leading-[114px] z-10 flex justify-center items-center'
      
             >
               ness
