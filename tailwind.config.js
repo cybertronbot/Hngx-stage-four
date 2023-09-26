@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         clash: ["Clash Display", "sans-serif"],
         circular: ["Circular Std", "sans-serif"],
+        peralta: ["Peralta", "cursive"],
       },
     },
   },

@@ -9,18 +9,34 @@ const Intro = () => {
   return (
     <div className="poppins flex flex-col items-start justify-end w-full px-8 mt-56 md:px-14 md:w-[85%] lg:w-full lg:px-24 lg:mt-40 xl:px-52 xl:mt-48">
         <p className="text-[14px] text-[#C4C4C4] font-light mb-1 md:font-light md:mb-2 md:text-[16px] lg:mb-1">
-            Hi, my name is
+            Hi, Welcome to 
         </p>
-        <h1 className=" text-[38px] font-semibold  mb-1 txt md:text-[48px] lg:text-[55px] xl:text-[68px] font-clash">
-     ROSEMARY
+        <h1 className=" text-[38px] font-bold leading-[75px]  mb-1 txt md:text-[48px] lg:text-[55px] xl:text-[80px] font-peralta">
+     ROSEVERSE 
         </h1>
-        <p className="text-[30px] text-[#C4C4C4] font-[700] leading-9 mb-6 md:text-[41px] md:leading-[2.9rem] md:mb-7 md:font-[600] lg:text-[50px] lg:w-[80%]
-        lg:leading-[3.6rem] xl:text-[60px] xl:leading-[4rem] xl:font-[700]">
-          I build amazing things for the web.
-        </p>
-        <p className="text-[13px] font-normal leading-5 text-[#C4C4C4] md:text-[15px] md:leading-6 lg:text-[16px] lg:w-[65%] xl:w-[60%] xl:text-[18px] xl:leading-8">
-            I am a passionate front-end developer with love for creating visually appealing and user-friendly websites. <br /> 
-            My journey began with the excitement of bringing designs to life through code, and I&apos;ve been hooked ever since.
+        <div className='flex z-10 justify-center sm:mt-0 mt-[-60px] sm:mb-0 mb-[-20px] font-peralta'>
+            <h1
+              className='sm:text-[80px] text-[50px] txt uppercase font-bold leading-[114px] z-10 flex justify-center items-center '
+       
+            >
+              Ma
+            </h1>
+            <div
+            
+              className='sm:w-[152px] w-[450px] h-[50px] sm:h-[80px] sm:border-[18px] border-[12px] border-white rounded-r-[50px]  sm:mt-3 mt-7 sm:mx-2'
+            ></div>
+
+            <h1
+              className='txt sm:text-[80px] text-[45px] uppercase font-bold leading-[114px] z-10 flex justify-center items-center'
+     
+            >
+              ness
+            </h1>
+          </div>
+
+        
+        <p className="text-[13px] font-normal leading-5 text-[#C4C4C4] md:text-[15px] md:leading-6 lg:text-[16px] lg:w-[65%] xl:w-[60%] xl:text-[18px] xl:leading-8 font-peralta">
+        Greetings, fellow beings of the digital realm! I am Optimus Prime, your trusty guide through the intricate and ever-evolving world of frontend development. Just as I have protected Cybertron, I am now dedicated to safeguarding the user experiences of the virtual cosmos..
         </p>
        
         <div className="w-full mt-12 lg:hidden">
