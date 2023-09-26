@@ -54,7 +54,7 @@ const Reviews = () => {
           <p className="text-[15px] mt-1 md:mt-2 md:text-[19px] lg:text-[20px] xl:mt-1">
               04.
           </p>
-          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px]">
+          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px] font-peralta">
               Testimonials
           </p>
           <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />

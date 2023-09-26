@@ -20,7 +20,7 @@ const Contacts = () => {
             <p className="text-sm font-light text-[#C4C4C4] lg:text-base xl:text-lg">
                 05. What&apos;s next?
             </p>
-            <h1 className="text-4xl font-bold text-[#feed7a] my-5 md:my-5 xl:text-5xl">
+            <h1 className="text-4xl font-bold text-[#feed7a] my-5 md:my-5 xl:text-5xl font-peralta">
                 Get In Touch
             </h1>
             <p className="text-center text-sm font-light leading-6 md:w-[70%] md:text-base lg:w-[55%] lg:leading-8 xl:w-[45%] xl:text-lg
