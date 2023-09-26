@@ -63,8 +63,8 @@ const About = () => {
                 {items.map((item)=>{
                     return(
                 <div key={item.index} className="flex items-center justify-start w-[40%] mb-8">
-                    <BiSolidRightArrow className='text-[#df91f7] text-[12px]' />
-                    <p className="text-[12px] text-[#C4C4C4] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px]">
+                    <BiSolidRightArrow className='text-[#feed7a] text-[12px]' />
+                    <p className="text-[12px] text-[#feed7a] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px]">
                         {item.skill}
                     </p>
                 </div>
