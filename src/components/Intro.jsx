@@ -50,7 +50,7 @@ const Intro = () => {
                }}
               initial={{ opacity: 0.2, scale: 0 }}
             >
-              <a href="https://github.com/rhouzmerii?tab=repositories" target="_blank" rel="noreferrer">
+              <a href="/" target="_blank" rel="noreferrer">
                 <FiGithub className='text-[16px] md:text-[18px]' />
               </a>
             </motion.div>
