@@ -52,7 +52,7 @@ const Projects = () => {
             proLogoStyle: 'absolute h-56 w-[70%] object-contain rounded-[21.5px]',
             proBackground: 'absolute flex items-center justify-center w-full opacity-[0.8] h-full bg-[#182862] rounded-[20px]',
             proIntro: 'Protect your Web3 assets with Safekey',
-            proLink: 'https://safekey.vercel.app/',
+            proLink: 'https://hn-gx-stage-two.vercel.app/',
             aos: 'fade-left',
             offset: "150", 
             easing: "ease-in-sine",
